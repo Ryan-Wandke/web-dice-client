@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    background-color: beige;
+    
+}
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.button {
+    padding: 20px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+.dice{
+    flex: 1;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+}
+
+.dice img {
+  width: 50px; 
+  height: 50px;
+  object-fit: cover; 
+}

@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Dice Roller</title>
+    <link rel="stylesheet" href = "main.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>How Many Dice do you want to roll??</h1>
+            <div id = "instructions">
+                <p>Select how many dice you need to roll for both the attacker and defender in Risk, then press roll to roll them. </p>
+            </div>
+            <div id="selectorA">    
+            </div>
+            <!-- Selects amount of dice for attacker (1-3)-->
+            <div id="selectorD">
+            <!-- Selects amount of dice for defender(1-2)-->
+            </div>
+            <button class="button" onclick="displayDice()" autofocus  >Roll!</button>
+
+        </div>
+        <div class="dice" id="dice">
+            <!-- Displaying the dice happens here-->
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
